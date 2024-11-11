@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--Configurações iniciais da Pagina-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Estacionamento</title>
+    <!--link para a estilização CSS-->
+    <link rel="stylesheet" href="/Styles/stylepin.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+    <body>
+
+    <!--Sessão de Login do Usuario-->
+        <div class="option">
+        <form action="">
+
+            <h1>Reserve uma vaga no SmartPark</h1>
+
+                <!-- Selecione o tempo desejado -->
+                <div class="input-box">
+                    <select name="Tempo desejado" required>
+                        <option value="" disabled selected>Selecione o tempo desejado</option>
+                        <option value="30min">30 minutos</option>
+                        <option value="1h">1 hora</option>
+                        <option value="2h">2 horas</option>
+                        <option value="1d">3 horas</option>
+                        <option value="2d">4 horas</option>
+                    </select>
+                    <i class='bx bxs-time-five'></i>
+                </div>
+
+                <!-- Selecione o pagamento desejado -->
+                <form action="#">
+                    <div class="input-box">
+                        <select name="Forma de pagamento" required>
+                            <option value="" disabled selected>Selecione a forma de pagamento</option>
+                            <option value="cartao_credito">Cartão de Crédito</option>
+                            <option value="boleto">Boleto Bancário</option>
+                            <option value="pix">Pix</option>
+                            <option value="debito">Débito</option>
+                        </select>
+                    <i class='bx bxs-credit-card'></i> <!-- Ícone representando o cartão de crédito -->
+                </div>
+
+                <!-- Botão de "Login" como link -->
+                <div>
+                    <a href="pg.html">
+                    <button type="button" class="botão">Reservar</button>
+                    </a>
+                </div>
+                    
+                <!-- Primeiro acesso -->
+                <div class="register">
+                    <p>Desistiu?
+                    <a href="index.html">Cancelar</a>
+                    </p>    
+                </div>
+
+            </form> 
+
+        </div>
+
+    </body>
+    
+</html>
