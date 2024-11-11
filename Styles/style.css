@@ -17,6 +17,14 @@ body {
     background-position: center;
 }
 
+.loginUser .input-box :hover{
+    transition: background-color 0.3s ease; /* Adiciona a transição para a cor de fundo */
+}
+
+.loginUser .input-box :hover{
+    background-color: rgb(9, 108, 154); /* Adiciona a cor de fundo */
+}
+
 .loginUser {
     width: 420px;
     background: rgba(0, 0, 0, 0.941);
